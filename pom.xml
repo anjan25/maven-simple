@@ -9,7 +9,13 @@
 
   <name>Simple Maven example</name>
   <url>https://jitpack.io/#jitpack/maven-simple/0.1</url>
-
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>capricon-PC-releases</name>
+        <url>http://localhost:8081/artifactory/libs-release</url>
+    </repository>
+</distributionManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
